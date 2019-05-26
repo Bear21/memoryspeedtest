@@ -149,6 +149,7 @@
   <ItemGroup>
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="timecounter.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="memoryspeedtest.cpp" />
