@@ -1,0 +1,89 @@
+Linear read, every byte processed
+Verification took 0.63sec (15.96GB/s)
+
+Linear read every second byte, every cache line (cpu bottleneck test)
+Verification took 0.43sec (23.12GB/s)
+
+Linear read (offset)
+Verification took 0.38sec (26.60GB/s)
+
+Linear read
+Verification took 0.41sec (24.61GB/s)
+
+Reverse linear read
+Verification took 0.40sec (25.12GB/s)
+
+Linear read every second cache line
+Verification took 0.31sec (16.35GB/s)
+
+Linear read every fourth cache line
+Verification took 0.22sec (11.19GB/s)
+
+Linear read every eighth cache line
+Verification took 0.12sec (10.81GB/s)
+
+Linear read every sixteenth cache line
+Verification took 0.06sec (10.81GB/s)
+
+Reverse linear read every second cache line
+Verification took 0.31sec (16.32GB/s)
+
+Multithreaded read, testing cores: 0, 1, 2, 3, 4, 5, 6, 7
+Test size 8
+Multithreaded seperated linear read
+Verification took 0.25sec (39.93GB/s)
+
+Multithreaded read, testing cores: 0, 2, 4, 6
+Test size 4
+Multithreaded seperated linear read
+Verification took 0.27sec (37.12GB/s)
+
+Multithreaded read, testing cores: 0, 4
+Test size 2
+Multithreaded seperated linear read
+Verification took 0.29sec (34.32GB/s)
+
+Multithreaded read, testing cores: 0
+Test size 1
+Multithreaded seperated linear read
+Verification took 0.42sec (23.94GB/s)
+
+Multithreaded read, testing cores: 0, 1, 2, 3, 4, 5, 6, 7
+Test size 8
+Multithreaded seperated linear read
+Verification took 0.25sec (40.43GB/s)
+
+Multithreaded read, testing cores: 0, 2, 4, 6
+Test size 4
+Multithreaded seperated linear read
+Verification took 0.27sec (37.70GB/s)
+
+Multithreaded read, testing cores: 0, 4
+Test size 2
+Multithreaded seperated linear read
+Verification took 0.26sec (38.12GB/s)
+
+Multithreaded read, testing cores: 0
+Test size 1
+Multithreaded seperated linear read
+Verification took 0.39sec (25.40GB/s)
+
+Multithreaded read, testing cores: 0, 1, 2, 3, 4, 5, 6, 7
+Test size 8
+Multithreaded seperated linear read
+Verification took 0.26sec (38.91GB/s)
+
+Multithreaded read, testing cores: 0, 2, 4, 6
+Test size 4
+Multithreaded seperated linear read
+Verification took 0.27sec (36.78GB/s)
+
+Multithreaded read, testing cores: 0, 4
+Test size 2
+Multithreaded seperated linear read
+Verification took 0.26sec (38.01GB/s)
+
+Multithreaded read, testing cores: 0
+Test size 1
+Multithreaded seperated linear read
+Verification took 0.38sec (26.47GB/s)
