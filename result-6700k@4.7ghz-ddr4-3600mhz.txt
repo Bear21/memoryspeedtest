@@ -1,7 +1,7 @@
 Linear read, every byte processed
 Verification took 0.63sec (15.96GB/s)
 
-Linear read every second byte, every cache line (cpu bottleneck test)
+Linear read every second element, every cache line (cpu bottleneck test)
 Verification took 0.43sec (23.12GB/s)
 
 Linear read (offset)
